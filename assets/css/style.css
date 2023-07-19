@@ -982,7 +982,7 @@ body.active {
 .popup {
   display: none;
   position: fixed;
-  top: 85%;
+  top: 55%;
   left: 54.6%;
   transform: translate(-50%, 50%);
   /* padding: 20px; */
