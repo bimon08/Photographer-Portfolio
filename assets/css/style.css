@@ -1907,3 +1907,18 @@ body.active {
     max-width: 1200px;
   }
 }
+
+@keyframes bounce-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the bounce height as needed */
+  }
+}
+
+.bimon-image.bounce {
+  animation: bounce-animation 1s 2; /* 1s duration, infinite loop */
+  /* Wait for 5 seconds before starting the animation again */
+}
