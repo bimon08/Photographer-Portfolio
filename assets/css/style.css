@@ -990,7 +990,7 @@ body.active {
   z-index: 9999;
   color: white;
   opacity: 0;
-  transform-origin: center;
+  /* transform-origin: center; */
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -1906,4 +1906,19 @@ body.active {
   .footer-top .container {
     max-width: 1200px;
   }
+}
+
+@keyframes bounce-animation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the bounce height as needed */
+  }
+}
+
+.bimon-image.bounce {
+  animation: bounce-animation 1s 2; /* 1s duration, infinite loop */
+  /* Wait for 5 seconds before starting the animation again */
 }
