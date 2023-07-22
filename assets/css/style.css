@@ -983,12 +983,12 @@ body.active {
   display: none;
   position: fixed;
   top: 85%;
-  left: 54.6%;
+  left: 50%;
   transform: translate(-50%, 50%);
   /* padding: 20px; */
   /* background-color: var(--white_a15); */
   z-index: 9999;
-  color: white;
+  /* color: white; */
   opacity: 0;
   /* transform-origin: center; */
   transition: opacity 0.3s ease, transform 0.3s ease;
