@@ -986,7 +986,7 @@ body.active {
   left: 50%;
   transform: translate(-50%, 50%);
   /* padding: 20px; */
-  background-color: var(--white_a15);
+  /* background-color: var(--white_a15); */
   z-index: 9999;
   /* color: white; */
   opacity: 0;
