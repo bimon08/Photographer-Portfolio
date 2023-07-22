@@ -980,13 +980,13 @@ body.active {
 /* changed hinnoi */
 
 .popup {
-  display: none;
+  display: flex;
   position: fixed;
   top: 85%;
   left: 50%;
   transform: translate(-50%, 50%);
   /* padding: 20px; */
-  /* background-color: var(--white_a15); */
+  background-color: var(--white_a15);
   z-index: 9999;
   /* color: white; */
   opacity: 0;
@@ -1006,7 +1006,7 @@ body.active {
 }
 
 .popup a {
-  margin-right: 10px;
+  margin-right: 20px;
   text-decoration: none;
   display: none;
   transition: opacity 0.3s ease;
@@ -1020,7 +1020,8 @@ body.active {
 .popup a img {
   width: 30px;
   height: 30px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
+
   border-radius: 50%;
   transition: transform 0.3s ease;
 }
